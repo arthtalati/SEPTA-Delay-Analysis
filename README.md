@@ -10,9 +10,9 @@ Approximately 119,000 daily riders take advantage SEPTA’s Regional Rail system
 SEPTA reports On-Time Performance (OTP) to measure service reliability. OTP identifies the number of trains for all rail lines that arrive at their scheduled destination at the scheduled time. However, by industry standard, a train may arrive up to 5 minutes and 59 seconds after its scheduled time and still be considered on-time. SEPTA has set an On-Time Performance target such that 91% of its trains arrive on time. Thus, even with 100% “on time” performance, trains may still arrive late, forcing commuters to deal with uncertainty and lost time – especially if they rely on back-to-back connections.
 
 
-The blue lines in the map show all the regional rail line of SEPTA.
+The blue lines in the map show all the regional rail line of SEPTA. (image from google maps)
 
-<img src="http://drive.google.com/uc?export=view&id=1x37x4B9RxtBsgRWhYzVg7dLZR8FcKQVW">
+![](http://drive.google.com/uc?export=view&id=1x37x4B9RxtBsgRWhYzVg7dLZR8FcKQVW)
 
 
 ## TWINT API
@@ -38,14 +38,6 @@ This “otp.csv” from the Kaggle dataset contains On-Time Performance informat
 *   status ('On Time', '5 min', ... This is a status on train lateness. 999 is a suspended train)
 *   timeStamp
 
-
-## Machine Learning
-
-I determine the delays in the OPT dataset. We could combine weather data with the on-time performance data and see its effect too. The aim of this section would be to be able to predict the delays in the SEPTA regional rail system.
-The machine learing results provide a strong case for predicting future delays for regional rail lines
-
-
-
 Note as per the dataset, only 32% of trains run perfectly “on-time”, with another 30% running 1-3 minutes late and the remaining ~1/3 of the trains running >3 minutes late
 
 trainView.csv - GPS Train data (early release)
@@ -67,3 +59,7 @@ GPS coordinates are based on track telemetry.
   * timeStamp1 Last timeStamp at coordinates.
 
 
+## Machine Learning
+
+I determine the delays in the OPT dataset. We could combine weather data with the on-time performance data and see its effect too. The aim of this section would be to be able to predict the delays in the SEPTA regional rail system.
+The machine learing results provide a strong case for predicting future delays for regional rail lines
