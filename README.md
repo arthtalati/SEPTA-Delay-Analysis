@@ -12,7 +12,7 @@ SEPTA reports On-Time Performance (OTP) to measure service reliability. OTP iden
 
 The blue lines in the map show all the regional rail line of SEPTA. (image from google maps)
 
-![](http://drive.google.com/uc?export=view&id=1x37x4B9RxtBsgRWhYzVg7dLZR8FcKQVW)
+![Image](http://drive.google.com/uc?export=view&id=1x37x4B9RxtBsgRWhYzVg7dLZR8FcKQVW)
 
 
 ## TWINT API
